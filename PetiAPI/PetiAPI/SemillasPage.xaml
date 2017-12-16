@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PetiAPI.SemillasPage">
+    <ContentPage.Content>
+        <StackLayout Padding="10,12">
+            <StackLayout Orientation="Horizontal">
+                <Image Source="icon.png" WidthRequest="30" HeightRequest="30"></Image>
+                <Label Text="Catalogo de Semillas" FontSize="30"/>
+            </StackLayout>
+            <Image Source="semillas.jpg" WidthRequest="500" HeightRequest="150"></Image>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
